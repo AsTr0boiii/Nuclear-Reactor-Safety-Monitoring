@@ -109,27 +109,17 @@ This separation makes the code easier to understand, maintain, and expand in fut
 
 ## How to Compile
 
-The exact compilation command may depend on the compiler and operating system being used.
+The compilation process depends on the compiler environment and SQLite configuration being used.
 
-A basic GCC/G++ compilation can look similar to:
+The project was developed in C++ with SQLite database integration. The required source files include the reactor simulation, database manager, and SQLite components.
 
-```bash
-g++ main.cpp Reactor.cpp DatabaseManager.cpp sqlite3.c -o ReactorSimulator
-```
+Users should compile the project using a C++ compiler configured with SQLite support.
 
 ---
 
 ## How to Run
 
-After compiling the project, run the generated executable.
-
-Example:
-
-```bash
-./ReactorSimulator
-```
-
-On Windows, the generated executable may be run directly depending on the compiler environment.
+After successful compilation, run the generated executable from the chosen development or terminal environment.
 
 ---
 
